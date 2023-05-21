@@ -43,7 +43,7 @@ big_mart_data.info()
 
 Screenshot:
 
-![Loaded Data](screenshots\load_data.png)
+![Loaded Data](screenshots/load_data.png)
 
 
 
@@ -109,10 +109,10 @@ plt.show()
 
 Screenshots:
 
-![Item Weight Distribution](screenshots\item_weight_distribution.png)![Item Visibility Distribution](screenshots\item_visibility_distribution.png) 
-![Item MRP distribution](screenshots\Item_MRP_distribution.png)![Item_Outlet_Sales distribution](screenshots\Item_Outlet_Sales_distribution.png)
-![Outlet_Establishment_Year column](screenshots\Outlet_Establishment_Year_column.png)![Item_Fat_Content_column](screenshots\Item_Fat_Content_column.png)![Outlet_Size column](screenshots\Outlet_Size_column.png)
-![Item_Type column](screenshots\Item_Type_column.png)
+![Item Weight Distribution](screenshots/item_weight_distribution.png)![Item Visibility Distribution](screenshots/item_visibility_distribution.png) 
+![Item MRP distribution](screenshots/Item_MRP_distribution.png)![Item_Outlet_Sales distribution](screenshots/Item_Outlet_Sales_distribution.png)
+![Outlet_Establishment_Year column](screenshots/Outlet_Establishment_Year_column.png)![Item_Fat_Content_column](screenshots/Item_Fat_Content_column.png)![Outlet_Size column](screenshots/Outlet_Size_column.png)
+![Item_Type column](screenshots/Item_Type_column.png)
 
 ## Data Pre-Processing
 
@@ -135,7 +135,7 @@ big_mart_data['Item_Fat_Content'] = encoder.fit_transform(big_mart_data['Item_Fa
 Screenshot:
 
 <!-- Add screenshot of preprocessed data -->
-![Preprocessed Data](screenshots\preprocessed_data.png)
+![Preprocessed Data](screenshots/preprocessed_data.png)
 
 ## Machine Learning Model Training
 
@@ -182,4 +182,4 @@ print('R-squared value on test data:', r2_test)
 
 Screenshot:
 
-![Evaluation Metrics](screenshots\evaluation_metrics.png)
+![Evaluation Metrics](screenshots/evaluation_metrics.png)
