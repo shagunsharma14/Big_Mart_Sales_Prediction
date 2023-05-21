@@ -43,7 +43,6 @@ big_mart_data.info()
 
 Screenshot:
 
-<!-- Add screenshot of loaded data -->
 ![Loaded Data](screenshots\load_data.png)
 
 
